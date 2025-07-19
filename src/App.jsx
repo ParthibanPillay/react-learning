@@ -3,18 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './index.css'
-import UserForm from './pages/userForm';
-import VisibilityToggle from './pages/VisibilityToggle'
-import OnOff from './pages/OnOff'
-import BgChanger from './pages/BgChanger'
+import LikeButton from './pages/Level-1/LikeButton'
+import ListInput from './pages/Level-1/ListInput'
+import CelsiusToFaren from './pages/Level-1/CelsiusToFaren'
 
 function App() {
   return (
     <div className='grid gap-10'>
-      <UserForm />
-      <VisibilityToggle />
-      <OnOff />
-      <BgChanger />
+      <CelsiusToFaren />
     </div>
   )
 }
